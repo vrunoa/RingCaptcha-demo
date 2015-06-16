@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33AC2371B2F264600B5A2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33AC2361B2F264600B5A2F3 /* main.m */; };
+		A33AC23A1B2F264600B5A2F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A33AC2391B2F264600B5A2F3 /* AppDelegate.m */; };
+		A33AC23D1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A33AC23B1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodeld */; };
+		A33AC2401B2F264600B5A2F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33AC23F1B2F264600B5A2F3 /* ViewController.m */; };
+		A33AC2431B2F264600B5A2F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33AC2411B2F264600B5A2F3 /* Main.storyboard */; };
+		A33AC2451B2F264600B5A2F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33AC2441B2F264600B5A2F3 /* Images.xcassets */; };
+		A33AC2481B2F264600B5A2F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A33AC2461B2F264600B5A2F3 /* LaunchScreen.xib */; };
+		A33AC2541B2F264600B5A2F3 /* RingCaptcha_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A33AC2531B2F264600B5A2F3 /* RingCaptcha_demoTests.m */; };
+		A33AC25E1B2F268400B5A2F3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33AC25D1B2F268400B5A2F3 /* CoreTelephony.framework */; };
+		A33AC2611B2F26C500B5A2F3 /* Ringcaptcha.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A33AC25F1B2F26C500B5A2F3 /* Ringcaptcha.bundle */; };
+		A33AC2621B2F26C500B5A2F3 /* Ringcaptcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33AC2601B2F26C500B5A2F3 /* Ringcaptcha.framework */; };
+		A33AC2651B2F29B500B5A2F3 /* Main_iPhone_5_5_Inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33AC2631B2F29B500B5A2F3 /* Main_iPhone_5_5_Inch.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A33AC24E1B2F264600B5A2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A33AC2291B2F264600B5A2F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33AC2301B2F264600B5A2F3;
+			remoteInfo = "RingCaptcha-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A33AC2311B2F264600B5A2F3 /* RingCaptcha-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RingCaptcha-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33AC2351B2F264600B5A2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33AC2361B2F264600B5A2F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A33AC2381B2F264600B5A2F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A33AC2391B2F264600B5A2F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A33AC23C1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RingCaptcha_demo.xcdatamodel; sourceTree = "<group>"; };
+		A33AC23E1B2F264600B5A2F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A33AC23F1B2F264600B5A2F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A33AC2421B2F264600B5A2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A33AC2441B2F264600B5A2F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A33AC2471B2F264600B5A2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A33AC24D1B2F264600B5A2F3 /* RingCaptcha-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RingCaptcha-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33AC2521B2F264600B5A2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33AC2531B2F264600B5A2F3 /* RingCaptcha_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingCaptcha_demoTests.m; sourceTree = "<group>"; };
+		A33AC25D1B2F268400B5A2F3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A33AC25F1B2F26C500B5A2F3 /* Ringcaptcha.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Ringcaptcha.bundle; sourceTree = "<group>"; };
+		A33AC2601B2F26C500B5A2F3 /* Ringcaptcha.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ringcaptcha.framework; sourceTree = "<group>"; };
+		A33AC2641B2F29B500B5A2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone_5_5_Inch.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A33AC22E1B2F264600B5A2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33AC25E1B2F268400B5A2F3 /* CoreTelephony.framework in Frameworks */,
+				A33AC2621B2F26C500B5A2F3 /* Ringcaptcha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33AC24A1B2F264600B5A2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A33AC2281B2F264600B5A2F3 = {
+			isa = PBXGroup;
+			children = (
+				A33AC25D1B2F268400B5A2F3 /* CoreTelephony.framework */,
+				A33AC2331B2F264600B5A2F3 /* RingCaptcha-demo */,
+				A33AC2501B2F264600B5A2F3 /* RingCaptcha-demoTests */,
+				A33AC2321B2F264600B5A2F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A33AC2321B2F264600B5A2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A33AC2311B2F264600B5A2F3 /* RingCaptcha-demo.app */,
+				A33AC24D1B2F264600B5A2F3 /* RingCaptcha-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A33AC2331B2F264600B5A2F3 /* RingCaptcha-demo */ = {
+			isa = PBXGroup;
+			children = (
+				A33AC2381B2F264600B5A2F3 /* AppDelegate.h */,
+				A33AC2391B2F264600B5A2F3 /* AppDelegate.m */,
+				A33AC23E1B2F264600B5A2F3 /* ViewController.h */,
+				A33AC23F1B2F264600B5A2F3 /* ViewController.m */,
+				A33AC2411B2F264600B5A2F3 /* Main.storyboard */,
+				A33AC2631B2F29B500B5A2F3 /* Main_iPhone_5_5_Inch.storyboard */,
+				A33AC2441B2F264600B5A2F3 /* Images.xcassets */,
+				A33AC2461B2F264600B5A2F3 /* LaunchScreen.xib */,
+				A33AC23B1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodeld */,
+				A33AC25F1B2F26C500B5A2F3 /* Ringcaptcha.bundle */,
+				A33AC2601B2F26C500B5A2F3 /* Ringcaptcha.framework */,
+				A33AC2341B2F264600B5A2F3 /* Supporting Files */,
+			);
+			path = "RingCaptcha-demo";
+			sourceTree = "<group>";
+		};
+		A33AC2341B2F264600B5A2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33AC2351B2F264600B5A2F3 /* Info.plist */,
+				A33AC2361B2F264600B5A2F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A33AC2501B2F264600B5A2F3 /* RingCaptcha-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A33AC2531B2F264600B5A2F3 /* RingCaptcha_demoTests.m */,
+				A33AC2511B2F264600B5A2F3 /* Supporting Files */,
+			);
+			path = "RingCaptcha-demoTests";
+			sourceTree = "<group>";
+		};
+		A33AC2511B2F264600B5A2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33AC2521B2F264600B5A2F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A33AC2301B2F264600B5A2F3 /* RingCaptcha-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33AC2571B2F264600B5A2F3 /* Build configuration list for PBXNativeTarget "RingCaptcha-demo" */;
+			buildPhases = (
+				A33AC22D1B2F264600B5A2F3 /* Sources */,
+				A33AC22E1B2F264600B5A2F3 /* Frameworks */,
+				A33AC22F1B2F264600B5A2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RingCaptcha-demo";
+			productName = "RingCaptcha-demo";
+			productReference = A33AC2311B2F264600B5A2F3 /* RingCaptcha-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A33AC24C1B2F264600B5A2F3 /* RingCaptcha-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33AC25A1B2F264600B5A2F3 /* Build configuration list for PBXNativeTarget "RingCaptcha-demoTests" */;
+			buildPhases = (
+				A33AC2491B2F264600B5A2F3 /* Sources */,
+				A33AC24A1B2F264600B5A2F3 /* Frameworks */,
+				A33AC24B1B2F264600B5A2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A33AC24F1B2F264600B5A2F3 /* PBXTargetDependency */,
+			);
+			name = "RingCaptcha-demoTests";
+			productName = "RingCaptcha-demoTests";
+			productReference = A33AC24D1B2F264600B5A2F3 /* RingCaptcha-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A33AC2291B2F264600B5A2F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "The HP Apps";
+				TargetAttributes = {
+					A33AC2301B2F264600B5A2F3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A33AC24C1B2F264600B5A2F3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A33AC2301B2F264600B5A2F3;
+					};
+				};
+			};
+			buildConfigurationList = A33AC22C1B2F264600B5A2F3 /* Build configuration list for PBXProject "RingCaptcha-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A33AC2281B2F264600B5A2F3;
+			productRefGroup = A33AC2321B2F264600B5A2F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A33AC2301B2F264600B5A2F3 /* RingCaptcha-demo */,
+				A33AC24C1B2F264600B5A2F3 /* RingCaptcha-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A33AC22F1B2F264600B5A2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33AC2431B2F264600B5A2F3 /* Main.storyboard in Resources */,
+				A33AC2651B2F29B500B5A2F3 /* Main_iPhone_5_5_Inch.storyboard in Resources */,
+				A33AC2481B2F264600B5A2F3 /* LaunchScreen.xib in Resources */,
+				A33AC2611B2F26C500B5A2F3 /* Ringcaptcha.bundle in Resources */,
+				A33AC2451B2F264600B5A2F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33AC24B1B2F264600B5A2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A33AC22D1B2F264600B5A2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33AC23D1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodeld in Sources */,
+				A33AC23A1B2F264600B5A2F3 /* AppDelegate.m in Sources */,
+				A33AC2401B2F264600B5A2F3 /* ViewController.m in Sources */,
+				A33AC2371B2F264600B5A2F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33AC2491B2F264600B5A2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33AC2541B2F264600B5A2F3 /* RingCaptcha_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A33AC24F1B2F264600B5A2F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33AC2301B2F264600B5A2F3 /* RingCaptcha-demo */;
+			targetProxy = A33AC24E1B2F264600B5A2F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A33AC2411B2F264600B5A2F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33AC2421B2F264600B5A2F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A33AC2461B2F264600B5A2F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33AC2471B2F264600B5A2F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A33AC2631B2F29B500B5A2F3 /* Main_iPhone_5_5_Inch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33AC2641B2F29B500B5A2F3 /* Base */,
+			);
+			name = Main_iPhone_5_5_Inch.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A33AC2551B2F264600B5A2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A33AC2561B2F264600B5A2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A33AC2581B2F264600B5A2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RingCaptcha-demo",
+				);
+				INFOPLIST_FILE = "RingCaptcha-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A33AC2591B2F264600B5A2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RingCaptcha-demo",
+				);
+				INFOPLIST_FILE = "RingCaptcha-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A33AC25B1B2F264600B5A2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RingCaptcha-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingCaptcha-demo.app/RingCaptcha-demo";
+			};
+			name = Debug;
+		};
+		A33AC25C1B2F264600B5A2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RingCaptcha-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingCaptcha-demo.app/RingCaptcha-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A33AC22C1B2F264600B5A2F3 /* Build configuration list for PBXProject "RingCaptcha-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33AC2551B2F264600B5A2F3 /* Debug */,
+				A33AC2561B2F264600B5A2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33AC2571B2F264600B5A2F3 /* Build configuration list for PBXNativeTarget "RingCaptcha-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33AC2581B2F264600B5A2F3 /* Debug */,
+				A33AC2591B2F264600B5A2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A33AC25A1B2F264600B5A2F3 /* Build configuration list for PBXNativeTarget "RingCaptcha-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33AC25B1B2F264600B5A2F3 /* Debug */,
+				A33AC25C1B2F264600B5A2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A33AC23B1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A33AC23C1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodel */,
+			);
+			currentVersion = A33AC23C1B2F264600B5A2F3 /* RingCaptcha_demo.xcdatamodel */;
+			path = RingCaptcha_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A33AC2291B2F264600B5A2F3 /* Project object */;
+}
