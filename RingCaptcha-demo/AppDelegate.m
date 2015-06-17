@@ -16,14 +16,33 @@
 
 @implementation AppDelegate
 
++ (UIViewController *)topViewController{
+    return [self topViewController:[UIApplication sharedApplication].keyWindow.rootViewController];
+}
+
++ (UIViewController *)topViewController:(UIViewController *)rootViewController
+{
+    if (rootViewController.presentedViewController == nil) {
+        return rootViewController;
+    }
+    
+    if ([rootViewController.presentedViewController isMemberOfClass:[UINavigationController class]]) {
+        UINavigationController *navigationController = (UINavigationController *)rootViewController.presentedViewController;
+        UIViewController *lastViewController = [[navigationController viewControllers] lastObject];
+        return [self topViewController:lastViewController];
+    }
+    
+    UIViewController *presentedViewController = (UIViewController *)rootViewController.presentedViewController;
+    return [self topViewController:presentedViewController];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
 #warning HP- COMMENT BELOW PART OF THE CODE TO LET 'RINGCAPTCHA' WORK PROPERLY
 #warning PART OF CODE THAT HAS TO BE COMMENTED STRATS HERE
-    /*
-    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    //*
+    // self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     NSString *storybaordName = @"Main";
     if (IS_IPHONE_5_5Inch)
         storybaordName = @"Main_iPhone_5_5_Inch";
@@ -35,7 +54,7 @@
     //    UINavigationController *viewController = [storyboard instantiateInitialViewController];
     
     self.window.rootViewController = viewController;
-    //    [self.window makeKeyAndVisible];
+    [self.window makeKeyAndVisible];
     //*/
 #warning PART OF CODE THAT HAS TO BE COMMENTED ENDS HERE
     
