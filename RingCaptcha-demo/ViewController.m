@@ -26,10 +26,13 @@
 }
 
 - (IBAction)showRingcaptchaBtnAction:(id)sender {
-    [Ringcaptcha verifyOnboardWithAppKey:@"API_KEY" andSecretKey:@"SECRET_KEY" inViewController:self delegate:self success: ^(RingcaptchaVerification *verification) {
-        NSLog(@"Successful onboarding");
+    [Ringcaptcha verifyOnboardWithAppKey:@"API_KEY" andSecretKey:@"SECRET_KEY" inViewController:self delegate:nil success:^(RingcaptchaVerification *verification) {
+        NSLog(@"Verification process ended successfully? %@", verification.verificationId);
+        NSLog(@"Verification process ended successfully? %d", verification.verificationSuccessful);
+        NSLog(@"Verification process ended successfully? %@", verification.phoneNumber);
+        NSLog(@"Verification process ended successfully? %@", verification.errorDescription);
     } cancel:^(RingcaptchaVerification *verification) {
-        NSLog(@"Onboarding cancelled");
+        NSLog(@"Verification process cancelled? %d", verification.verificationSuccessful);
     }];
 }
 

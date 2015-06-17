@@ -22,7 +22,7 @@
     
 #warning HP- COMMENT BELOW PART OF THE CODE TO LET 'RINGCAPTCHA' WORK PROPERLY
 #warning PART OF CODE THAT HAS TO BE COMMENTED STRATS HERE
-    //*
+    /*
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     NSString *storybaordName = @"Main";
     if (IS_IPHONE_5_5Inch)
